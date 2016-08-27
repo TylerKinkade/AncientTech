@@ -1,10 +1,6 @@
-#include "SDL.h"
-#include "TCHAR.h"
+#include <SDL.h>
 
-#ifdef __cplusplus
-extern "C"
-#endif
-int main(int argc, char* argv[])
+int main(int argc, char** argv[])
 {
 	return 0;
 }
