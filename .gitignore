@@ -25,3 +25,9 @@
 *.exe
 *.out
 *.app
+*.VC.opendb
+*.VC.db
+*.opensdf
+*.sdf
+*.vs.suo
+*.log
