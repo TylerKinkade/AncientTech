@@ -149,6 +149,11 @@
   <ItemGroup>
     <ClCompile Include="Src\LaunchWin.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Src\Core\FileUtils.h" />
+    <ClInclude Include="Src\Core\GameState.h" />
+    <ClInclude Include="Src\Core\Logger.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
