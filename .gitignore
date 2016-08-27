@@ -32,3 +32,6 @@
 *.vs.suo
 *.log
 *.suo
+*.tlog
+*.idb
+*.pdb
