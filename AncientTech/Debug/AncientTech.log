@@ -1,0 +1,36 @@
+﻿Build started 8/27/2016 2:46:56 PM.
+     1>Project "C:\Projects\AncientTech\AncientTech\AncientTech.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         robocopy Lib\SDL C:\Projects\AncientTech\Debug\ SDL2.dll
+         :VCEnd
+         
+         -------------------------------------------------------------------------------
+            ROBOCOPY     ::     Robust File Copy for Windows                              
+         -------------------------------------------------------------------------------
+         
+           Started : Saturday, August 27, 2016 2:46:56 PM
+            Source : C:\Projects\AncientTech\AncientTech\Lib\SDL\
+              Dest : C:\Projects\AncientTech\Debug\
+         
+             Files : SDL2.dll
+         	    
+           Options : /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+         
+         ------------------------------------------------------------------------------
+         
+         	                   1	C:\Projects\AncientTech\AncientTech\Lib\SDL\
+         
+         ------------------------------------------------------------------------------
+         
+                        Total    Copied   Skipped  Mismatch    FAILED    Extras
+             Dirs :         1         0         1         0         0         0
+            Files :         1         0         1         0         0         0
+            Bytes :    1.51 m         0    1.51 m         0         0         0
+            Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+            Ended : Saturday, August 27, 2016 2:46:56 PM
+         
+     1>Done Building Project "C:\Projects\AncientTech\AncientTech\AncientTech.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.09

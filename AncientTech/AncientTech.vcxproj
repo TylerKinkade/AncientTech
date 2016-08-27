@@ -77,7 +77,11 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(ProjectDirectory)Lib\SDL</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>robocopy $(ProjectDirectory)Lib\SDL $(OutDir) SDL2.dll</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -101,7 +105,11 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(ProjectDirectory)Lib\SDL</AdditionalLibraryDirectories>
     </Link>
+    <PreBuildEvent>
+      <Command>robocopy $(ProjectDirectory)Lib\SDL $(OutDir) SDL2.dll</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
